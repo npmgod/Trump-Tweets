@@ -19,6 +19,6 @@ function getRandom(amount) {
   return Math.floor(Math.random() * (amount + 1));
 }
 
-export default function() {
+exports.default = function() {
   return tweets[getRandom(0, tweets.length)];
-}
+};
