@@ -16,12 +16,12 @@ var tweets = [
 ];
 
 function getRandom(amount) {
-  return Math.floor(Math.random() * (amount + 1));
+  return Math.floor(Math.random() * amount);
 }
 
 function TrumpTweets() {
   var tweetIndex = getRandom(tweets.length);
-  return tweets[tweetIndex] + ' ' + tweetIndex;
+  return tweets[tweetIndex];
 }
 
 module.exports = TrumpTweets;
