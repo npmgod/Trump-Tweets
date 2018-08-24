@@ -19,6 +19,8 @@ function getRandom(amount) {
   return Math.floor(Math.random() * (amount + 1));
 }
 
-exports = function() {
+function TrumpTweets() {
   return tweets[getRandom(0, tweets.length)];
-};
+}
+
+module.exports = TrumpTweets;
