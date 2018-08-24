@@ -1,6 +1,6 @@
 {
   "name": "trump-tweets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Incredible. Absolutely... Incredible.",
   "main": "index.js",
   "scripts": {
