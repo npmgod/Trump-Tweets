@@ -20,7 +20,8 @@ function getRandom(amount) {
 }
 
 function TrumpTweets() {
-  return tweets[getRandom(tweets.length)];
+  var tweetIndex = getRandom(tweets.length);
+  return tweets[tweetIndex] + ' ' + tweetIndex;
 }
 
 module.exports = TrumpTweets;
