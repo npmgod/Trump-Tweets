@@ -1,7 +1,7 @@
 {
   "name": "trump-tweets",
   "version": "1.0.0",
-  "description": "Some of the most incredbile Tweets from our countries leader!",
+  "description": "Incredible. Absolutely... Incredible.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/npmgod/Trump-Tweets.git"
   },
-  "author": "",
+  "author": " Gage Henderson <gage@quangoinc.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/npmgod/Trump-Tweets/issues"
