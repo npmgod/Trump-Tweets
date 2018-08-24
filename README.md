@@ -2,6 +2,9 @@
 *You're welcome!*
 
 I know, I know. We've all had those days where we just need some inspiration to get us going. Well look no further:
+\
+\
+[Try it Out!](https://npmgod.github.io/Example-Website/#/trump-tweets)
 
 ## Setup
 `npm install trump-tweets`
