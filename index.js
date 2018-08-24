@@ -14,3 +14,11 @@ var tweets = [
   'Amazing how the haters & losers keep tweeting the name “F**kface Von Clownstick” like they are so original & like no one else is doing it...',
   "Thanks- many are saying I'm the best 140 character writer in the world. It's easy when it's fun."
 ];
+
+function getRandom(amount) {
+  return Math.floor(Math.random() * (amount + 1));
+}
+
+exports.trumpTweet = function() {
+  return tweets[getRandom(0, tweets.length)];
+};
